@@ -1,0 +1,96 @@
+2021-04-09
+  Dating sim pog
+
+2021-04-11 11:09 PM
+  I have like 70% of the art completed, which sounds impressive, but I've been working on it since Friday (it's Sunday). I have planned the first dates with Isaac and Samantha (roughly). I am considering lowering the number of candidates from 6 to 3 because I think I severely underestimated the amount of time that clubs would take up during the break, household stuff, and also driving practice with my mom. Either way, I will be impressed with myself if I manage to finish this game in a week (BUT I AM DETERMINED TO DO IT!! I DON'T CARE IF I HAVE TO BAIL ON VOLUNTEERING EVENTS I WILL DO IT!!). I'm still not sure what exactly I want to do for the second dates. I think they wil definitely be shorter than the first dates. Probably just a quick conversation, then time jump, and then a polaroid like in Dream Daddy. I've learned what sprites are from a pygame guide online, but I am yet to learn what exactly classes are so I need to figure that out before I can fully understand sprites, but I think I get the jist. Anyway, I am beyond tired somehow. Despite only having worked on this for 2 hours today and sleeping at 3 AM last night (morning??? technically) and waking up at noon (yes, true degen schedule), so getting 9 hours of sleep, I'm exhausted at 11. I'm just going to go to bed and grind this tomorrow (hopefully).
+
+2021-04-12 12:05 AM
+  Update: I did not go to sleep, but I also did not do any work...
+
+2021-04-12
+  Started working @ 12:03 PM
+  12:31 PM
+    I finished planning the date with Blake. I want to start working on programming the first date with Isaac. I think I should finish creating the first dates for the 3 characters I have planned right now (I actually have all 6 planned, but I've only worked out dialogue for three of them so far - the others are just plot points), and I'll see how much time I have left to determine if it's realistic to finish all 6 by next Monday. To be fair, once I get one down, the rest are kind of cookie cutter. If I don't have time, I can always just add them later on.
+  1:10 PM
+    I've realized that it doesn't make sense for Gerald to have a confused expression. I'm going to change it to embarrassed. I'm gonna go eat lunch rn though.
+  1:53 PM
+    Wadup I've returned. I'm gonna start by getting all my colour RGB codes into variables. I have also come up with the idea to create a tutorial (maybe)
+  3:20 PM
+    I'm trying to make it so that if you click on the game screen, it will bring you to the next dialogue. Right now I'm using the variable 'click' and have it as a boolean variable. If pygame detects the event where the user clicks on their mouse, it will change the value of 'click' to the opposite of what it currently is. I have an if statement nested in another if statement and click == True in one and click == False in the other. The first if statement has the first dialogue and the second one has the response dialogue. I've realized this does not work because it is impossible for the second if statement to run because they will never both be true given the nature of the setup. I've instead chosen to use a counter to decide when to display new dialogue. So instead of changing the value of 'click' from T to F or F to T, I'm just starting from 0 and adding by 1 each time the game detects a mouse click. The dialogue is displayed if the click counter is at a certain number, so the user can choose how long they want to spend on each line.
+  4:37 PM
+    Okay, I think I'm getting the hang of it. I'm trying to figure out if I want mouse interaction for everything, or if I want to incorporate keypresses. Right now I'm thinking of using space bar OR mouse for dialogue. For choices, I'll probably use mouse interaction
+  5:27 PM
+    Brain dying. I'm having trouble getting the game to react to the user clicking on a choice.
+  7:31 PM
+    ALRIGHT. So I have finished the TEXT and stuff for Isaac's first date. I still need to add the icons of who is talking + their reactions and (if I have time, add SFX??? I might just include background music for the whole thing though. I want to compose it on my own, but if time is tight, then I will just find some free use music)
+  10:02 PM
+    OKKKKKKKKKKKKKKKKKKKKKKKK. I'm done Isaac's date. I will admit, the code for it is pretty long. BUT, I'm not totally sure how I can fix that given the nature of choice based stories. I don't think I can idk?? I'll look into it though. ON THE BRIGHT SIDE...now that I have finished 1 first date I can almost copy and paste everything for the other first dates wooooo. I'm going to try to force myself to get at least one more done today, but I might just bail on that and play League.
+  11:07 PM
+    I did not end up playing League and I finished Samantha's date. I'm too tired to test it out right now though, so that's a worry for tomorrow.
+
+2021-04-13
+  11:37 AM
+    TIME TO WORK WOO!!1 Today I want to finish Blake's date and create the home page of the dating site. MAYBE I'LL ADD IN THE OTHER DATES TOO???? WHO KNOWS???
+  5:10 PM
+    Okay Blake date done. I figured out a way to implement the scoring system with minimal new lines of code. Originally, I was using 'score' as a parameter in a function, however when doing that, I was unable to have it change the value of score between different functions. Instead, I was able to turn score into a global variable and it worked better that way. I know we were discouraged from using global variables, but in this instance, it helped me accomplish what I wanted. If I am unable to finish all the first dates today, I want to at least finish all the art I need. (Including making a cool website background)
+  8:09 PM
+    ok nvm, I'm just gonna plan all the other dates right now bc my friend is playing in a League tourney and I want to watch it
+  10:00 PM
+    I will not lie, I did not accomplish as much as I thought I would today, but that's okay, I'm still more ahead than I thought I would be as of last Sunday. Time to blast music (sorry neighbours) and finish planning the dates for Ri, Fiona, and Sky
+  10:21 PM
+    Ok, I feel bad for my neighbours. I think they have young kids, so I will not be blasting music and as a result will work slower, but I FEEL GUILTY IDEK IF THEY CAN HEAR IT BUT IF THEY CAN I DON'T WANT TO BE THAT NEIGHBOUR...ok this was an irrelevant update why did I write it?
+2021-04-14
+  12:01 AM
+    I finished planning the rest of the first dates. I worked much slower than normal because I was distracted by Twitch BUT I was only distracted because I was watching a streamer play Valorant because I decided not to blast music and I needed something to keep me awake, but I ended up getting distracted by the gameplay a lot. WHATEVER. I finished it. Hopefully I can get everything (minus the second dates and the tutorial) done by tomorrow...or I guess today??
+  12:04 PM
+    Catherine tested. Catherine approved. Time to get working.
+  9:37 PM
+    Ok, I'm done for the day. I was not able to finish 'everything'. I need to finish creating the homepage after the account creation and then it will go through the date and return to the homepage and store the 'date 1' variable thing and if they click on it again. I should be able to get that done by tomorrow, and then after that all I will need to do is the tutorial and implement it into the game. Oh yeah, and compose music for the game, but that's chill.
+
+2021-04-15
+  12:47 PM
+    I said I would take the day off, but I just want to finish this and forget about my music mark so here we are.
+  3:15 PM
+    I'm trying to make the home page for the user to choose who to go on a date with but for some reason the profile creation function keeps running even if I'm not calling it at all?? I know that the code after I call the profileCreation function is running because I see a blip of the image, but I can't figure out how to make it stay there for how long I want. I just wanna go play League.
+  3:18 PM
+    I'm gonna go play League
+  4:14 PM
+    So I'm considering removing the option for the user to choose what gender(s) they want to be matched with and instead just present them with all 6 candidates and they can choose from them.
+  11:25 Pm
+    I forgot to update this because I was losing my mind. Anyway, I had an issue where sometimes Repl was registering the clicks on the website homepage. I tested with Ri and the clicks were registering, but for some reason it would only actually run the code in the if statement consistently if you clicked or spammed. Instead, I realized I could change the controls. So I made it so the user was instructed to click and drag the profile they wanted to go on a date with and something that used to be controlled by the mouse - moving on to the next dialogue piece/scene, would be controlled by the spacebar. This allowed me to incorporate keyboard presses into the game and it also allowed me to make the game more reliable and straightforward for the user.
+
+2021-04-16
+  12:01 AM
+    Catherine tested my code, I fixed a few typos. It seems to be working well now.
+  11:37 AM
+    Now that the end is in sight, I have a renewed amount of motivation to finish this. Today, I will be drawing all the background art for the second dates (keeping it much more simple than the diner this time) and I will try to finish writing as many of the second dates as I can, and maybe start composing the soundtrack. I know Repl doesn't supprt the audio mixer, but I will still create onebecause it sounds fun. If I fail miserably, we pretend I had no intentions of it.
+  7:51 PM
+    I'M DONE THE ACTUAL GAME WOO!! I just need to do a bit more testing and make the music! I'm gonna get started on the music now and test tmr or Sunday.
+
+2021-04-19
+  Nice, I never updated this. Anyway, I'm done. Wahoo.
+
+2021-05-27
+  idk at like 12 pm or smth
+    HI I HAVE RETURNED
+    I want to plan at least 3/6 of the dates in comments and I am starting with Sky and working backwards from the order I normally do because I feel like when I worked on this in April, I would always do Sky's things last and I would be tired by the time I got to it so I would put less effort into it and SKY DESERVES BETTER
+  1:43 PM
+    Alright I kind of remember why I don't like planning these dates out. It's very time consuming, but it's necessary to ensure the final product is as cohesive as possible.
+
+2021-05-30
+  3:35 PM
+    I woke up a bit late today, but I'm here to work now. I will admit, I've been quite sidetracked by the VCT Finals today. It's very close, but I have managed to force myself to start doing something productive. Although, taking a break sometimes and having fun is productive, especially in the pandemic.
+  5:32 PM
+    The second I sat down to work, my mom came upstairs yelling that the wifi wasn't working and was insisting that I come install a new modem that she ordered, so I just finished doing that because the internet in our area was actually out, the problem wasn't the old modem, but now I am here and I just want to finish planning Sky's date and then get all of the EC things I need to finish done.
+  7:31 PM
+    I finished planning Sky's date and I feel really exhausted just from the events from today. I'm just going to play the sims and research cars.
+  
+2021-06-12
+  1:37 PM
+    I forgot to come update this, but I got really busy with clubs and helping my mom with things so I haven't been able to work on this for a hot minute. I just finished planning Blake's date and I want to finish Fiona and Samantha's second dates today as well. I have also decided the minigame will be the same for all of the dates because I can just have different outcomes depending on the results. If I want to make more minigames, I can do that in the future, but right now I would prefer just to get all the dates working and then figure out how to do the login/account creation process with pygame and save progress.
+  5:05 PM
+    My mom interrupted me while I was working so this took a lot longer than I expected, but I finished the planning for 3 second dates today and I hope to finish planning the last 2 tomorrow and maybe start some of the art.
+
+2021-07-14
+  4:27 PM
+    In the last month, all I've done is finish most of the art I need for the expansion/update. I finished planning all of the dates a while ago, but I didn't write that here, so I guess I will now. I finished coding Sky's date (except for the mini game/end). I also want to find places to put the new embarrassed date icons I've drawn + I need to draw the waitress. I think I'm going to take a break right now and read the french books I bought, but afterwards I will draw the waitress icon(s) and then draw the art for the minigame. Hopefully I will be back tomorrow. If I actually keep this up, I will most likely be able to finish this all in a couple weeks, but Summer has been surprisingly busy. I'll try my best because I'm actually having fun doing this.
